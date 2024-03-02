@@ -1,0 +1,264 @@
+html{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.links{
+    text-decoration: none;
+    color: #000;
+}
+.main-bg{
+    background-color: #FBFBFB;
+   
+}
+.main-color{
+    color: #4BDBC1 !important;
+}
+.navbar-brand{
+    font-size: 17px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.nav-logo{
+    font-family:cursive;
+}
+.primary-button{
+    background-color: #4bdbc1;
+    padding: 5px 18px;
+    border: 2px solid #4BDBC1;
+    border-radius: 20px;
+    color: #FBFBFB;
+    transition: 0.5s;
+    &:hover{
+        background-color: #fbfbfb;
+        color: #4BDBC1;
+    }
+}
+.banner-line{
+    padding-top:100px;
+    color: #4BDBC1;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.slogan{
+    padding-top:20px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #575555;
+}
+.trust{
+    color: #575555;
+    letter-spacing: 1.6;
+    font-size: 18px;
+}
+.image{
+    padding-top: 130px;
+
+}
+.banner{
+    height:85vh;
+}
+.banner-2{
+    background-color: #4BDBC1;
+    color: #FBFBFB;
+}
+.banner2-line{
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner2-sym{
+    font-size: 50px;
+}
+.by{
+    padding-top: 10px;
+    padding-left: 700px;
+    color: #575555;
+}
+.container-main{
+    max-width: 800px;
+    margin: auto;
+}
+.banner4{
+    background-color: #4BDBC1;
+    border-radius: 10px;
+}
+.b4-image{
+    border-radius: 10px;
+}
+
+
+.b4-line{
+    font-size: 23px;
+   color: #000;
+}
+.b4-text{
+   
+    color: #fff;
+    font-size: 72px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.b4-text2{
+    padding-bottom: 10px;
+    color: #575555;
+    font-size: 62px;
+}
+.secondary{
+    background-color: #fbfbfb;
+    padding: 5px 18px;
+    border: 3px solid #FBFBFB;
+    border-radius: 20px;
+    color: #575555;
+    transition: 0.5s;
+    &:hover{
+        background-color: #fbfbfb;
+        color: #575555;
+        border-color: #000;
+    }
+    
+}
+.footer-slogan{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #575555;
+}
+.footer-p{
+    color: #575555;
+    font-size: 16px;
+}
+.footer-list{
+    padding-top: 10px;
+    line-height: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.social{
+    color: #575555;
+}
+.logos{
+    transition: 0.5s;
+    &:hover{
+        color: #4BDBC1;
+        cursor: pointer;
+    }
+}
+
+.form-div{
+    
+    
+    display: flex;
+    justify-content: center;
+    
+  }
+  .Login{
+    border: 3px solid #4BDBC1;
+    width: 500px;
+   overflow-y: auto;
+  }
+.img1{
+   
+    border-radius: 25px;
+filter: brightness(60%);
+cursor:pointer;
+transition: 0.5s;
+&:hover{
+    filter: brightness(30%);
+}
+}
+.text-position1 {
+    left: 50px;
+    color: #FBFBFB;
+    bottom: 70px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.create{
+    background-color: #4BDBC1;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 3px solid #4BDBC1;
+    transition: 0.5s;
+    color: #575555;
+    &:hover{
+     background-color: #FBFBFB;
+     color: #4BDBC1;
+    }
+}
+.primary-links{
+    color: #4BDBC1;
+}
+
+.organization{
+    height: 80vh;
+    overflow-y: auto;
+    width: 700px;
+    margin: auto;
+    border: 2px solid #4BDBC1;
+}
+.dashboard{
+    height:85vh;
+    
+}
+.danger{
+    
+    background: red;
+    color: #fff;
+    border: 3px solid red;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition :0.5s;
+    &:hover{
+        background: #fff;
+        color: red;
+    }
+}
+.bi-eye-fill{
+    color: #575555;
+    cursor: pointer;
+}
+.table{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.about-image{
+    filter: brightness(70%);
+    border-radius: 10px;
+}
+.lists-org{
+    background-color: #f5e9e9;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 479px){
+    .banner-line{
+        padding-top:10px !important;
+        
+        
+    }
+    .banner{
+        height:auto ;
+    }
+    .image{
+        width: 100% !important;
+         padding-top: 0px !important;
+    }
+
+        .banner2-line{
+            padding: 0px !important;
+            font-size: 22px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .by{
+            
+            padding-left: 70px;
+            color: #575555;
+        }
+    
+}
+
+
+
